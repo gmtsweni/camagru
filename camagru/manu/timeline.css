@@ -1,0 +1,313 @@
+/*html {
+    position: relative;
+    min-height: 100%;
+}*/
+.edit_body{
+  background-color: white;
+  background-image: url("img/pc5.jpg");
+  background-repeat: no-repeat;
+}
+.body_bg{
+  background-color: white;
+  background-image: url("bg2.jpg");
+ 
+  margin: 0 0 100px;  /*bottom = footer height */
+  padding: 25px;
+    
+}
+.pro_bg{
+  background-color: white;
+  background-image: url("bg4.jpg");
+ background-repeat: repeat-x;
+  margin: 0 0 100px;  /*bottom = footer height */
+  padding: 25px;
+}
+.gall_hm{
+  float: left;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+header{
+    
+        width: 100%;
+        height: 65px;
+        box-sizing: border-box;
+        background-color: #373948;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+       
+}
+
+.logout{
+  text-align: right;
+}
+.nav ul {
+    list-style: none;
+    background-color: #373948;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 50px;
+    border-bottom: 1px solid #888;
+  }
+   
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+  }
+   
+  .nav a:hover {
+    background-color: #005f5f;
+  }
+   
+  .nav a.active {
+    background-color: #FA8072;
+    color: #444;
+    cursor: default;
+  }
+   
+  @media screen and (min-width: 600px) {
+    .nav li {
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+    }
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #373948;
+  }
+  
+}
+button {
+    background-color: #373948; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;  
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 3px solid white;
+}
+.btn {
+    font-size: 30px;
+}
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.btn-1 {
+	border: 3px solid #fff;
+	color: #fff;
+}
+.btn-1a:hover,
+.btn-1a:active {
+	color: #0e83cd;
+	background: #fff;
+}
+.booth{
+ width: 400px;
+ background-color: #ccc;
+ border: 10px solid #ddd;
+ margin-top: 10%;
+ margin-left: 40%;
+ top: 30px;
+}
+.booth-capture-button{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+footer {
+    background-color: #373948;
+    position: fixed; bottom: 0 ;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+}
+/* this is profile page styles*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.okbtn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: grey;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.okbtn{
+
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+/* styles for ediit page*/
+.edi_card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 30%;
+}
+input[type=text]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=button], input[type=submit], input[type=reset]
+{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 50%;
+}
+.text{
+  color: #afafaf;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+button{
+  border-radius:0;
+  padding:10px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  color:white;
+  transition:all.5s ease;
+  border-radius: 8px;
+}
+/* this is the gallary srylings*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+#container {
+  margin-top: 20%;
+  margin-left: 30%;
+  width: 500px;
+  height: 375px;
+  border: 10px #333 solid;
+}
+#videoElement {
+  width: 500px;
+  height: 375px;
+  background-color: #666;
+}
